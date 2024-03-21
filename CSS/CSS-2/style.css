@@ -1,0 +1,36 @@
+h1, h3{
+    color: #b92b27;
+}
+
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+nav ul li a{
+    color: rgb(220, 21, 67);
+}
+
+input[id="i1"]{
+    color:red;
+    background-color: rgb(27, 125, 41);
+} 
+
+button:hover{
+    color: rgb(0, 255, 229);
+    background-color: pink;
+}
+
+button:active{
+    background-color: red;
+}
