@@ -1,0 +1,42 @@
+Descendant Selector
+eg.
+p a{
+    color: red;
+    text-decoration: none;
+}
+
+above code means, "jitne bhi p tags hain, unke andar jitne bhi a tags hain unko select karo."
+direct child hona jaruri nahi here, we can skip levels.
+--------------------------------------------------
+
+sibling combinator
+eg.,
+
+html code--
+          |
+          V
+          <P></P>
+          <a></a>   <--only this will be selected
+          <a></a>
+          <div><a></a></div>
+
+p + a {
+    color: green;
+    text-decoration: none;
+}
+
+above code means, "jitne bhi p tags hain unke khatam hone ke baad, jo immediate a tag ayega unko select karo."
+here p and a are siblings
+------------------------------------------------------------------------------------
+
+child combinator
+eg.,
+
+span > button{
+    background-color: green;
+}
+
+above code means, "un buttons ko jo direct child hain span ke, unko select karo."
+here span is parent of button.
+and a disadvantage of child combinator is that: we can go only one level, we can't skip levels.
+----------------------------------------------------------------------------------------------------
