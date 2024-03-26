@@ -1,0 +1,43 @@
+BOX MODEL
+
+1.height and width sets height and width of the 
+content area and not of the div.
+
+2.border property gets applied to the 
+outer-line and not on the
+content area.
+
+3.margin-bottom means "margin denge from bottom"
+---------------------------------------------
+For a div to be visible, we need 
+to give it minimum a height as 
+by-default div's height is 0.
+and a background-color too.
+these 2 properties are minimum to make a div
+visible on a browser.
+----------------------------------------
+In span elements, we can't set height and width
+properties, but we can set the padding and margin
+properties but the padding & margin (when set), will
+only be applicable on the left and right side.
+on top and bottom, no padding and margin gets applied
+in span elements.
+-----------------------------------------------------
+display: inline/block
+to make elements inline/block respectively.
+for eg., there is a div(which is a block element)
+you wanna make it inline.Just write,
+div{
+    display:inline;
+}
+Now, the div will become inline and won't occupy the 
+whole width.
+-------------------------------
+display: inline-block;
+it makes block elements lay in single vertical
+line(by making them behave as inline elements) and
+also their style is not lost.
+---------------------------------------
+display: none;
+to hide an element from the screen.
+-----------------------------------------
