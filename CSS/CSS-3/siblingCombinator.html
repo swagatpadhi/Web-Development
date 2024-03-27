@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling Combinator</title>
+    <style>
+        p+a{
+            color: green;
+        }
+
+        #outer{
+    font-size: 10px;
+}
+#inner{
+    font-size: 3em; 
+    /* (this will make font size of inner
+    div as 30px, basically 3 times of 
+    font-size of parent) */
+    padding: 1em;
+    /* (this will give a padding of 30px
+    to inner div, basically 1 times of font-size
+    of inner div. ) */
+}
+    </style>
+</head>
+<body>
+
+    <div id="outer">
+        outer div
+        <div id="inner">
+        inner div
+        </div>
+    </div>
+
+    
+    <hr>
+    <p>
+    this is my first paragraph
+    </p>
+    <a href="https://google.com">Google</a>
+    <a href="https://instagram.com">Instagram</a>
+
+
+    <p>
+        this is my second paragraph.
+    </p>
+    <a href="https://facebook.com">facebook</a>
+    <a href="https://microsoft.com">microsoft</a>
+</body>
+</html>

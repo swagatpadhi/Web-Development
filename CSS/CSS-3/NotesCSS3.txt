@@ -10,10 +10,10 @@ content area.
 3.margin-bottom means "margin denge from bottom"
 ---------------------------------------------
 For a div to be visible, we need 
-to give it minimum a height as 
-by-default div's height is 0.
-and a background-color too.
-these 2 properties are minimum to make a div
+to give it minimum, a height (as 
+by-default div's height is 0)
+and a background-color/border .
+These 2 properties are minimum to make a div
 visible on a browser.
 ----------------------------------------
 In span elements, we can't set height and width
@@ -41,3 +41,87 @@ also their style is not lost.
 display: none;
 to hide an element from the screen.
 -----------------------------------------
+% is used to set properties of child
+relative to parent.
+
+One of the key principles was to make CSS intuitive and easy to use. Therefore, it was decided that percentages for margin and padding properties would be based on the width of the containing block/parent block rather than its height.
+
+This is the reason why, the following code will give 
+you a margin-top value (for inner div)as 100px rather than giving 200px.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage</title>
+    <style>
+        #outer{
+            height: 400px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 50px;
+        }
+        #inner{
+            height: 50px;
+            width: 50px;
+            border: 2px solid blue;
+            margin-top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+        </div>
+    </div>
+</body>
+</html>
+------------------------------------------
+em :
+when we are setting a textual(typographical) property,
+like font-size then it is relative to font-size of 
+parent.
+and when we are setting padding, margin, width 
+then it is relative to font-size of the element 
+itself.
+<div id="outer">
+    outer div
+    <div id="inner">
+    inner div
+    </div>
+</div>
+
+#outer{
+    font-size: 10px;
+}
+#inner{
+    font-size: 3em; 
+    (this will make font size of inner
+    div as 30px, basically 3 times of 
+    font-size of parent)
+    padding: 1em;
+    (this will give a padding of 30px
+    to inner div, basically 1 times of font-size
+    of inner div. )
+}
+--------------------------------------------
+rem:
+it is relative to font-size of root element.
+this unit helps to get rid off the drawback of em unit, which is snowfalling effect.
+root element is the outermost element i.e <html> 
+
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum a. Cum magnam, accusantium, fuga omnis culpa cumque officia alias ut enim, quia quam. Sed repellat dicta eligendi quod accusamus?</p>
+</body>
+<style>
+ p{
+           font-size: 2rem; 
+  }
+</style>
+
+  so the font-size of paragraph is gonna be 32px 
+  which is 2 * 16px.
+  as by default 16px is the font-size of texts
+  in body.
+----------------------------------------------
