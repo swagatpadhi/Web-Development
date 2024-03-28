@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation</title>
+    <style>
+        div{
+            height: 100px;
+            width: 200px;
+            text-align: center;
+            border:2px solid black;
+            background-color: pink;
+        }
+        div:nth-of-type(2n){
+            background-color: yellow;
+        }
+        div:nth-of-type(3n){
+            background-color: green;
+        }
+        #one{
+            transform: rotate(-45deg);
+        }
+        #two{
+            transform: scale(0.5);
+        }
+        #three{
+            transform: translate(100px,100px);
+        }
+        #four{
+            transform: skew(-45deg);
+        }
+        #five{
+            transform: rotate(45deg) translateX(300px);
+        }
+    </style>
+</head>
+<body>
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three">3</div>
+    <div id="four">4</div>
+    <div id="five">5</div>
+</body>
+</html>
