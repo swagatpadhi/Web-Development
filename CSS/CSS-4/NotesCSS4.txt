@@ -1,0 +1,24 @@
+Positions
+1.Static:
+there is no effect on top, right, bottom, left and z-index properties.
+This is default value.
+
+2.Relative:
+the offsets(top, bottom, left, right) are relative to itself.
+
+3.Absolute:
+if there is a parent who's Position
+is not static then position will be 
+relative to that parent element, 
+else it will be relative to body i.e 
+the whole page.
+&
+Element is removed from normal document flow and no space is created in the page layout for elements with Absolute position.
+
+4.Fixed:
+positioned relative to body/document.
+also Whichever element has relative
+as position, gets fixed on screen 
+and doesn't move.
+&
+Element is removed from normal document flow and no space is created in the page layout for elements with Absolute position.
