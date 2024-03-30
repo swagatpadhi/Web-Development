@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Hover</title>
+    <style>
+       .card{
+        height: 250px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px;
+        box-shadow: 0px 4px 8px black;
+        transition: 1s;
+       }
+       img{
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+       }
+       .desc{
+        padding: 0 5px 0 5px;
+       }
+       .card:hover{
+        box-shadow: 0px 8px 16px black;
+       }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="Man.jpg" alt="">
+        <div class="desc">
+            <h3>Simon</h3>
+            <p>Data analyst</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="woman.jpg" alt="woman">
+        <div class="desc">
+            <h3>Helena</h3>
+            <p>Manager</p>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
+
