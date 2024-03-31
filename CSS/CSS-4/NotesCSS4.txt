@@ -11,7 +11,7 @@ if there is a parent who's Position
 is not static then position will be 
 relative to that parent element, 
 else it will be relative to body i.e 
-the whole page.
+the whole page/document.
 &
 Element is removed from normal document flow and no space is created in the page layout for elements with Absolute position.
 
