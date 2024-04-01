@@ -108,7 +108,7 @@ itself.
 --------------------------------------------
 rem:
 it is relative to font-size of root element.
-this unit helps to get rid off the drawback of em unit, which is snowfalling effect.
+this unit helps to get rid off the drawback of em unit, which is snow-balling effect.
 root element is the outermost element i.e <html> 
 
 <body>
