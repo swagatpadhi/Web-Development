@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #container{
+            height: 300px;
+            width: 80%;
+            background-color: azure;
+            border: 2px solid black;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #container div{
+            height: 100px;
+            width: 50px;
+            color: black;
+            text-align: center;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Box Playground</h1>
+    <div id="container">
+        <div class="flexItems" style="background-color: violet;">Violet</div>
+        <div class="flexItems" style="background-color: indigo;">Indigo</div>
+        <div class="flexItems" style="background-color: blue;">Blue</div>
+        <div class="flexItems" style="background-color: green;">Green</div>
+        <div class="flexItems" style="background-color: yellow;">Yellow</div>
+        <div class="flexItems" style="background-color: orange;">Orange</div>
+        <div class="flexItems" style="background-color: red;">Red</div>
+    </div>
+</body>
+</html>

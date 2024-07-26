@@ -1,0 +1,49 @@
+Flexbox
+
+Key-Terminology: the items within 
+the container are flex-items and 
+the container itself is called flex-container.
+-------------------------
+display:flex;
+
+by setting
+display: flex;(by the way, we give
+display: flex to the outer container
+which contains items in it.)
+all the items by default get
+arranged in horizontal direction &
+and it restricts all the elements within to stay inside their parent
+container. There won't be any overflow.
+---------------------------
+flex-direction:
+
+if i want to arrange my items
+horizontaly, then
+flex-direction: row(default);
+if in vertical direction, then
+flex-direction: column;
+
+when flex-direction: row;
+the horizontal line becomes the 
+main axis, vertical line becomes 
+cross axis.Also main axis, is from
+left-to-right.
+
+when flex-direction: column;
+the vertical line becomes the main
+axis, horizontal line becomes cross
+axis.Also, main axis, is from top-to-
+bottom.
+
+flex-direction: row-reverse;
+main axis is gonna from right-to-left.
+Similarly, in flex-direction: column-reverse;
+main axis is gonna from bottom-to-top.
+
+if we reverse the flex-direction, then the elements' layout is also 
+gonna be reversed.
+----------------------------
+justify-content
+
+to distribute space between and around content items along the main
+axis.
