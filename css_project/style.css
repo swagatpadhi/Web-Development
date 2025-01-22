@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: #D5FF40;
+}
+
+nav{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+nav h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section{
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text1 h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: -60px;
+}
+
+.hero-text1 .video{
+    height: 100px;
+    width: 370px;
+    background-image:url(https://plus.unsplash.com/premium_photo-1671751033552-42a025cf0b11?q=80&w=2912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    border-radius: 100px;
+    margin-top: 55px;
+    margin-left: 30px ;
+    padding: 5px;
+}
+
+.video .play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #444;
+}
+
+.play i{
+    font-size: 50px;
+    color: white;
+}
+
+section .hero-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.hero-text2 h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.hero-text2 p{
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+    margin-left: 160px;
+}
+
+.image{
+    position: relative;
+    height: 900px;
+    width: 90%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1681426701125-bed484a8c829?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+.image .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: -6%;
+    border: 10px solid #444;
+}
+
+.ri-arrow-right-up-line{
+    color: white;
+    font-size: 200px;
+}
