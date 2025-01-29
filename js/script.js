@@ -1,14 +1,10 @@
-console.log(typeof {})
-console.log(typeof [])
-console.log(Array.isArray([]))
-console.log(Array.isArray({}))
+function abcd() {
+    console.log(this)
+}
 
 var obj = {
-    name: "Swagat",
-    age: 21,
-    gender: "M"
+    age: 100
 }
-console.log(obj)
-delete obj.age
-console.log(obj)
-console.log(obj.age)
+
+var bindedFnc = abcd.bind(obj)
+bindedFnc()
