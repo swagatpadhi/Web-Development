@@ -1,0 +1,44 @@
+/* button{
+    background-color: black;
+    color: white;
+    height: 4vw;
+    width: 7vw;
+    border-radius: 3vw;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+button:active{
+    background-color: pink;
+    color: white;
+}
+
+input[id="yes"]:checked + label{
+    color: Green;
+    font-weight: bolder;
+}
+
+input[id="no"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+div:nth-of-type(2n) {
+    background-color: rgb(240, 238, 235);
+}
+
+div::selection{
+    background-color: yellowgreen;
+} */
+
+div{
+    background-color: blue;
+}
+
+p{
+    background-color: yellow;
+}

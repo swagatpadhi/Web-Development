@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#widget{
+    height: 25vw;
+    width: 25vw;
+    /* padding: 3vw; */
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1603910234616-3b5f4a6be2b4?q=80&w=2689&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#top{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+#prof{
+    height: 30%;
+    width: 100%;
+     border-top-left-radius: 3.8vw;
+    border-top-right-radius: 3.8vw;
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+#prof #dp{
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-image: url(https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    margin:1vw;
+}
+
+#caption{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-left: 0.7vw;
+}
+
+#caption h1{
+    color: #000000;
+    font-size: 2vw;
+    font-weight: 800;
+    font-style:bold;
+}
+
+#caption p{
+    color: #ffffff;
+    font-style: italic;
+    font-weight:300;
+}
+
+#bottom{
+    height: 50%;
+    width: 100%;
+   /* border: 2px solid white; */
+   display: flex;
+   justify-content: center;
+   align-items:end;
+}
+
+#bottom button{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    padding: 0.2vw;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1vw;
+    color: rgb(211, 63, 63);
+    margin: 1.2vw 0.4vw 1.2vw 1.2vw;
+}
+
+#bottom input{
+    width: 15vw;
+    height: 2vw;
+    padding: 0.8vw;
+    border-radius: 3vw;
+    border: none;
+    margin: 1.2vw 1.2vw 1.2vw 0vw;
+}
