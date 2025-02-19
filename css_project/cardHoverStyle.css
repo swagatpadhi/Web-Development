@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.card{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(230, 239, 230);
+    border: 1px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 8px 3px rgb(105, 105, 105);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 4px 16px 9px rgb(105, 105, 105);
+}
+
+.upper1{
+    height: 75px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-image: url(https://i.pinimg.com/736x/5d/ee/06/5dee0656512c81ed137071bfa0f813ae.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.lower1{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.upper2{
+    height: 75px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-image: url(https://i.pinimg.com/736x/91/c7/87/91c787e92d31bd21c7a2824cc8e4a785.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.lower2{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;font-size: 10px;
+}

@@ -35,10 +35,29 @@ div::selection{
     background-color: yellowgreen;
 } */
 
-div{
+/* div{
     background-color: blue;
 }
 
 p{
     background-color: yellow;
+} */
+
+div{
+    height: 100px;
+    width: 50px;
+    background-color: green;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 2px 2px 18px black;
+}
+
+/* div:hover{
+    background-color: black;
+    border-radius: 50%;
+}  */
+
+div{
+    /* transform: rotate(45deg); */
+    transform: scale(1);
 }
