@@ -45,11 +45,24 @@ p{
 
 div{
     height: 100px;
-    width: 50px;
+    width: 300px;
     background-color: green;
     margin: 10px auto;
-    text-align: center;
-    box-shadow: 2px 2px 18px black;
+    animation-name: myfontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes myfontAnimation{
+    from{
+        font-size: 16px;
+    }
+    to{
+        font-size: 40px;
+    }
 }
 
 /* div:hover{
@@ -57,7 +70,7 @@ div{
     border-radius: 50%;
 }  */
 
-div{
-    /* transform: rotate(45deg); */
+/* div{
+    transform: rotate(45deg);
     transform: scale(1);
-}
+} */
